@@ -1,0 +1,30 @@
+======================================================
+         Sai Swaroop Reddy - Career Copilot Launcher
+======================================================
+
+Starting the Career Copilot Dashboard Server...
+
+Server running at http://localhost:8000
+Close this terminal window or press Ctrl+C to shut down the server.
+
+127.0.0.1 - - [21/May/2026 22:32:03] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [21/May/2026 22:32:03] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2026 22:32:04] "GET /jobs_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2026 22:32:04] "GET /copilot.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2026 22:32:04] "GET /app.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2026 22:32:04] "GET /jobs.json HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2026 22:32:04] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2026 22:32:05] code 404, message File not found
+127.0.0.1 - - [21/May/2026 22:32:05] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2026 22:32:07] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [21/May/2026 22:32:07] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2026 22:32:45] "POST /api/sync HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2026 22:32:45] "GET /jobs.json HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2026 22:34:06] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [21/May/2026 22:34:06] "GET /styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/May/2026 22:34:06] "GET /jobs_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2026 22:34:06] "GET /copilot.js HTTP/1.1" 304 -
+127.0.0.1 - - [21/May/2026 22:34:06] "GET /app.js HTTP/1.1" 304 -
+127.0.0.1 - - [21/May/2026 22:34:07] "GET /jobs.json HTTP/1.1" 304 -
+127.0.0.1 - - [21/May/2026 22:34:07] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2026 22:34:09] "POST /api/sync HTTP/1.1" 200 -

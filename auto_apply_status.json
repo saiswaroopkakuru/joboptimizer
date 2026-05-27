@@ -1,0 +1,43 @@
+{
+  "status": "starting",
+  "stepIndex": 2,
+  "steps": [
+    {
+      "label": "Initializing Playwright Browser",
+      "status": "completed"
+    },
+    {
+      "label": "Navigating to Portal",
+      "status": "completed"
+    },
+    {
+      "label": "Uploading Tailored Resume",
+      "status": "completed"
+    },
+    {
+      "label": "Autofilling Personal Info",
+      "status": "completed"
+    },
+    {
+      "label": "Autofilling Experience & Education",
+      "status": "in_progress"
+    },
+    {
+      "label": "Final Review (Manual Submission)",
+      "status": "completed"
+    }
+  ],
+  "logs": [
+    "Initializing browser automation...",
+    "Successfully parsed tailored resume details.",
+    "Starting Brave headed browser from: C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+    "Navigating to https://www.linkedin.com/jobs/view/4400783669...",
+    "Arrived at: https://www.linkedin.com/jobs/view/4400783669",
+    "Detected job portal: General/Unknown. Attempting generic field mapping...",
+    "Scanning inputs for personal metadata...",
+    "Generic metadata populate complete.",
+    "Failed to fill text input custom question: Locator.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"input[type='text'], textarea\").first\n    - locator resolved to <input required=\"\" type=\"text\" name=\"session_key\" autocomplete=\"username\" id=\"csm-v2_session_key\" data-tracking-client-ingraph=\"\" data-tracking-control-name=\"csm-v2_sign-in-session-key\" class=\"text-color-text font-sans text-md outline-0 bg-color-transparent w-full\"/>\n    - fill(\"I am a backend software engineer with 3.5 years of experience specializing in Python, FastAPI, and Kubernetes.\")\n  - attempting fill action\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    58 \u00d7 waiting for element to be visible, enabled and editable\n       - element is not visible\n     - retrying fill action\n       - waiting 500ms\n",
+    "Form auto-fill complete! Ready for your manual review and final submission.",
+    "Browser remains open. Close browser window or click Abort in dashboard to stop."
+  ]
+}
